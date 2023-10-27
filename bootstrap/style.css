@@ -1,0 +1,26 @@
+:root {
+	--navbarLeftWidth: 400px;
+	--navbarTopHeight: 60px;
+}
+
+body {
+	background: red;
+}
+
+#container {
+	background: blue;
+}
+
+.navbar-left {
+	background: green !important;
+}
+
+.offcanvas-lg,
+.offcanvas-body {
+	width: var(--navbarLeftWidth) !important;
+	height: 100vh;
+}
+
+.navbar-top__content {
+	height: var(--navbarTopHeight);
+}
