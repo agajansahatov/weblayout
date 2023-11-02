@@ -1,26 +1,13 @@
-:root {
-	--navbarLeftWidth: 400px;
-	--navbarTopHeight: 60px;
+.offcanvas-lg {
+	width: 300px !important;
 }
 
-body {
-	background: red;
+.navbar {
+	min-height: 64px;
 }
 
-#container {
-	background: blue;
-}
-
-.navbar-left {
-	background: green !important;
-}
-
-.offcanvas-lg,
-.offcanvas-body {
-	width: var(--navbarLeftWidth) !important;
-	height: 100vh;
-}
-
-.navbar-top__content {
-	height: var(--navbarTopHeight);
-}
+/* @media screen and (min-width: 992px) {
+	.offcanvas-body {
+		width: 300px;
+	}
+} */
